@@ -1,0 +1,6 @@
+version: '2'
+services:
+  golanghello:
+    image: herokuapp/golanghello
+    ports:
+      - "8182:8080" 
